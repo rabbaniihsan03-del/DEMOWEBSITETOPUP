@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0" />
+  <title>RabbStudios - Top Up Games</title>
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@500;600;700&family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- NAVBAR -->
+<header>
+  <a class="logo" href="#">
+    <div class="logo-icon">
+      <img src="assets/img/logo.png" alt="logo">
+    </div>
+    rabbdevv<span>studios</span>
+  </a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#" class="active">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="3" width="20" height="14" rx="2"/><path d="M8 21h8M12 17v4"/></svg>
+        Topup
+      </a></li>
+      <li><a href="harga.html">
+        <svg width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/></svg>
+        Daftar Harga
+      </a></li>
+    </ul>
+  </nav>
+</header>
+
+<!-- HERO SLIDER -->
+<div class="hero">
+  <div class="slides-wrapper">
+    <div class="slides" id="slides">
+
+      <!-- Slide 1: eFOOTBALL -->
+      <div class="slide">
+        <div class="slide-bg" style="background-image: url('assets/img/BG2.JPG');"></div>
+        <div class="slide-content">
+          <div class="slide-brand">
+            <span>◎</span> rabbdevv<span>studios</span>
+          </div>
+          <div class="slide-title">BINGUNG TOP UP<br>eFOOTBALL?</div>
+          <div class="slide-sub">Tenang, sekarang lebih praktis!<br>BELI GOOGLE PLAY VOUCHERNYA<br>REEDEM KODENYA DI E-FOOTBALL KALIAN</div>
+          <div class="slide-logos">
+            <div style="background:#000;padding:3px 7px;border-radius:4px;color:#fff;font-weight:800;font-size:.68rem;">⚽ eFOOTBALL™</div>
+            <div style="display:flex;align-items:center;gap:4px;color:#f2ff00;font-weight:700;font-size:.72rem;">▶ Google Play</div>
+          </div>
+          <div class="slide-cta">
+            <div class="cta-left">TOP UP<br>HANYA DI</div>
+            <div class="cta-right">🌐 SEKARANG JUGA!<br>WWW.RABBSTUDIOS.COM</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 2: Mobile Legends -->
+      <div class="slide">
+        <div class="slide-bg" style="background-image: url('assets/img/BG6.jpg');"></div>
+        <div class="slide-content">
+          <div class="slide-brand" style="color:#7ec8e3;">◎ Rabbdevv<span>studios</span></div>
+          <div class="slide-title" style="color:#7ec8e3;">TOP UP MOBILE LEGENDS<br>LEBIH MURAH DI SINI!</div>
+          <div class="slide-sub">DIAMOND MURAH, PROSES CEPAT<br>OPEN 24 JAM TANPA HENTI</div>
+          <div class="slide-cta">
+            <div class="cta-left" style="background:#7ec8e3;color:#111;">TOP UP<br>HANYA DI</div>
+            <div class="cta-right">🌐 SEKARANG JUGA!<br>WWW.RABBSTUDIOS.COM</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Slide 3: Robux -->
+      <div class="slide">
+        <div class="slide-bg" style="background-image: url('assets/img/BG4.JPG');"></div>
+        <div class="slide-content">
+          <div class="slide-brand" style="color:#03ff57;">◎ Rabbdevv<span>studios</span></div>
+          <div class="slide-title" style="color:#ff8c00;">Robux<br>HARGA TERJANGKAU!</div>
+          <div class="slide-sub">TERSEDIA BERBAGAI NOMINAL<br>COCOK UNTUK AVATAR DESAIN SESUKA MU</div>
+          <div class="slide-cta">
+            <div class="cta-left" style="background:#ff8c00;">TOP UP<br>HANYA DI</div>
+            <div class="cta-right">🌐 SEKARANG JUGA!<br>WWW.RABBSTUDIOS.COM</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <button class="arrow-btn arrow-left" onclick="slide(-1)">&#8249;</button>
+  <button class="arrow-btn arrow-right" onclick="slide(1)">&#8250;</button>
+  <div class="dots" id="dots">
+    <div class="dot active" onclick="goSlide(0)"></div>
+    <div class="dot" onclick="goSlide(1)"></div>
+    <div class="dot" onclick="goSlide(2)"></div>
+  </div>
+</div>
+
+<!-- MAIN -->
+<main>
+
+  <!-- POPULAR -->
+  <div class="section-title">🔥 POPULER SEKARANG!</div>
+  <div class="section-sub">Berikut adalah beberapa produk yang paling populer saat ini.</div>
+  <div class="popular-grid">
+
+    <div class="pop-card card-blue">
+      <div class="pop-thumb-placeholder">
+        <img src="assets/img/ml.jpg" alt="Mobile Legends">
+      </div>
+      <div class="pop-info">
+        <div class="pop-name">Mobile Legends</div>
+        <div class="pop-dev">Moonton</div>
+      </div>
+    </div>
+
+    <div class="pop-card card-blue2">
+      <div class="pop-thumb-placeholder">
+        <img src="assets/img/EF.jpg" alt="eFOOTBALL">
+      </div>
+      <div class="pop-info">
+        <div class="pop-name">eFOOTBALL</div>
+        <div class="pop-dev">KONAMI</div>
+      </div>
+    </div>
+
+    <div class="pop-card" style="background:linear-gradient(135deg,#1a2a3a,#243050);">
+      <div class="pop-thumb-placeholder">
+        <img src="assets/img/PUBG.JPG" alt="PUBG Mobile">
+      </div>
+      <div class="pop-info">
+        <div class="pop-name">PUBG Mobile</div>
+        <div class="pop-dev">Tencent Games</div>
+      </div>
+    </div>
+
+    <div class="pop-card" style="background:linear-gradient(135deg,#2a1010,#501a1a);">
+      <div class="pop-thumb-placeholder">
+        <img src="assets/img/FF.jpg" alt="Free Fire">
+      </div>
+      <div class="pop-info">
+        <div class="pop-name">Free Fire</div>
+        <div class="pop-dev">Garena</div>
+      </div>
+    </div>
+
+    <div class="pop-card" style="background:linear-gradient(135deg,#1a1a50,#252580);">
+      <div class="pop-thumb-placeholder">
+        <img src="assets/img/ROBLOX.JPG" alt="Roblox">
+      </div>
+      <div class="pop-info">
+        <div class="pop-name">Roblox</div>
+        <div class="pop-dev">Roblox Corporation</div>
+      </div>
+    </div>
+
+    <div class="pop-card" style="background:linear-gradient(135deg,#1a2a1a,#1e4020);">
+      <div class="pop-thumb-placeholder">
+        <img src="assets/img/GENSIN.JPG" alt="Genshin Impact">
+      </div>
+      <div class="pop-info">
+        <div class="pop-name">Genshin Impact</div>
+        <div class="pop-dev">miHoYo</div>
+      </div>
+    </div>
+
+    <div class="pop-card" style="background:linear-gradient(135deg,#2a1a10,#503010);">
+      <div class="pop-thumb-placeholder">
+        <img src="assets/img/honorofking.jpg" alt="Honor of Kings">
+      </div>
+      <div class="pop-info">
+        <div class="pop-name">Honor of Kings</div>
+        <div class="pop-dev">Tencent Games</div>
+      </div>
+    </div>
+
+    <div class="pop-card" style="background:linear-gradient(135deg,#1a1a28,#252540);">
+      <div class="pop-thumb-placeholder" style="background:linear-gradient(135deg,#1a1a28,#252540);font-size:1.6rem;">🧱</div>
+      <div class="pop-info">
+        <div class="pop-name">JOKI ECERAN</div>
+        <div class="pop-dev">&nbsp;</div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- TESTIMONI -->
+  <div class="section-title" style="margin-top: 24px;">⭐ TESTIMONI PELANGGAN</div>
+  <div class="section-sub">Apa kata mereka yang sudah top up di sini.</div>
+
+  <div class="testimoni-grid">
+
+    <div class="testi-card">
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-text">"Proses top up ML super cepat, gak sampai 1 menit langsung masuk. Recommended banget!"</div>
+      <div class="testi-user">
+        <div class="testi-avatar" style="background:linear-gradient(135deg,#1a3a5c,#2a5298);">👤</div>
+        <div>
+          <div class="testi-name">Andi R.</div>
+          <div class="testi-game">Mobile Legends</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card">
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-text">"Harga diamond paling murah yang pernah aku temuin. Udah langganan dari bulan lalu!"</div>
+      <div class="testi-user">
+        <div class="testi-avatar" style="background:linear-gradient(135deg,#2a1010,#501a1a);">👤</div>
+        <div>
+          <div class="testi-name">Siti N.</div>
+          <div class="testi-game">Free Fire</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card">
+      <div class="testi-stars">★★★★☆</div>
+      <div class="testi-text">"Top up UC PUBG lancar, CS juga ramah dan fast respon. Pasti balik lagi!"</div>
+      <div class="testi-user">
+        <div class="testi-avatar" style="background:linear-gradient(135deg,#1a2a3a,#243050);">👤</div>
+        <div>
+          <div class="testi-name">Budi S.</div>
+          <div class="testi-game">PUBG Mobile</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card">
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-text">"Robux masuk instan, harga bersaing. Toko terpercaya, gak perlu takut kena tipu!"</div>
+      <div class="testi-user">
+        <div class="testi-avatar" style="background:linear-gradient(135deg,#1a1a28,#252540);">👤</div>
+        <div>
+          <div class="testi-name">Reza F.</div>
+          <div class="testi-game">Roblox</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="testi-card">
+      <div class="testi-stars">★★★★★</div>
+      <div class="testi-text">"Joki rank ML paketan hasilnya memuaskan banget, rank naik signifikan. Worth it!"</div>
+      <div class="testi-user">
+        <div class="testi-avatar" style="background:linear-gradient(135deg,#2a2040,#3a2a60);">👤</div>
+        <div>
+          <div class="testi-name">Dewi K.</div>
+          <div class="testi-game">Joki Rank ML</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</main>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-top">
+    <div class="footer-brand">
+      <div class="footer-logo">
+        <div class="logo-icon" style="border-color:var(--accent-gold);color:var(--accent-gold);">⚔️</div>
+        rabbdev<span>studios</span>
+      </div>
+      <p class="footer-desc">
+        RABBDEV STUDIOS adalah tempat top up games yang aman, murah dan terpercaya. Proses cepat 1-3 Detik. Open 24 jam. Payment terlengkap. Jika ada kendala silahkan klik logo CS pada kanan bawah di website ini.
+      </p>
+      <div class="social-icons">
+        <a class="social-icon si-ig" href="#" title="Instagram">📸</a>
+        <a class="social-icon si-tt" href="#" title="TikTok">🎵</a>
+        <a class="social-icon si-gm" href="#" title="Email" style="color:#c00;">✉️</a>
+        <a class="social-icon si-yt" href="#" title="YouTube">▶</a>
+      </div>
+    </div>
+
+    <div class="footer-cols">
+      <div class="footer-col">
+        <h4>Peta Situs</h4>
+        <ul>
+          <li><a href="#">Beranda</a></li>
+          <li><a href="#">Cek Transaksi</a></li>
+          <li><a href="#">Hubungi Kami</a></li>
+          <li><a href="#">Ulasan</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Dukungan</h4>
+        <ul>
+          <li><a href="#">Whatsapp</a></li>
+          <li><a href="#">Instagram</a></li>
+          <li><a href="#">Email</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <h4>Legalitas</h4>
+        <ul>
+          <li><a href="#">Kebijakan Pribadi</a></li>
+          <li><a href="#">Syarat &amp; Ketentuan</a></li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">© 2026 RABBDEV STUDIOS. All rights reserved.</div>
+</footer>
+
+<!-- CS BUTTON -->
+<a href="https://wa.me/081564795908" target="_blank" class="cs-btn">
+  <img src="assets/img/wa1.svg" alt="WhatsApp" class="cs-icon"
+       onerror="this.style.display='none'">
+  PESAN DISINI
+</a>
+
+<script>
+  let cur = 0;
+  const total = 3;
+
+  function updateSlider() {
+    const slidesEl = document.getElementById('slides');
+    slidesEl.style.transform = `translateX(-${cur * 100}%)`;
+    document.querySelectorAll('.dot').forEach((d, i) => d.classList.toggle('active', i === cur));
+  }
+
+  function slide(dir) {
+    cur = (cur + dir + total) % total;
+    updateSlider();
+  }
+
+  function goSlide(i) {
+    cur = i;
+    updateSlider();
+  }
+
+  // Auto-play
+  let autoPlay = setInterval(() => slide(1), 4000);
+
+  // Pause autoplay on touch/interact
+  document.querySelector('.hero').addEventListener('touchstart', () => {
+    clearInterval(autoPlay);
+    autoPlay = setInterval(() => slide(1), 5000);
+  }, { passive: true });
+
+  // Touch/swipe support for slider
+  let touchStartX = 0;
+  const slidesWrapper = document.querySelector('.slides-wrapper');
+
+  slidesWrapper.addEventListener('touchstart', (e) => {
+    touchStartX = e.touches[0].clientX;
+  }, { passive: true });
+
+  slidesWrapper.addEventListener('touchend', (e) => {
+    const diff = touchStartX - e.changedTouches[0].clientX;
+    if (Math.abs(diff) > 40) {
+      slide(diff > 0 ? 1 : -1);
+    }
+  });
+</script>
+
+</body>
+</html>
